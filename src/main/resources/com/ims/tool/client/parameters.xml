@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template-parameters-config version="1.0">
+	<param name="subscriberId" value="" />
+	<param name="privateUserId" value="" />
+	<param name="publicIdValue" value="" />
+	<param name="msisdn" value="" />
+	<param name="imsi" value="" />
+	<param name="e164" value="" />
+	<param name="3gppDomain" value="" />
+	<param name="serviceProfileId" value="" />
+	<param name="implicitRegSet" value="" />
+	<param name="isDefault" value="" />
+	<param name="configuredServiceProfileId" value="" />
+	<param name="phoneContext" value="" />
+	<param name="sccDomain" value="" />
+	<param name="userProfileId" value="" />
+	<param name="extendedAccessRestrictions" value="" />
+	<param name="individualContextIdList" value="" />
+	<param name="individualDefaultContextId" value="" />
+	<param name="subscriptionId" value="" />
+</template-parameters-config>

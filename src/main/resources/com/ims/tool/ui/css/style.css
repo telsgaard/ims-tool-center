@@ -1,0 +1,69 @@
+.save-button {
+   -fx-background-color: #376aa5;
+   -fx-font-weight: bold;
+   -fx-text-fill: white;
+}
+
+.delete-button {
+   -fx-background-color: #f44336;
+   -fx-font-weight: bold;
+   -fx-text-fill: white;
+}
+
+.clear-button {
+   -fx-background-color: #5f5f5f;
+   -fx-font-weight: bold;
+   -fx-text-fill: white;
+}
+
+.send-button {
+	-fx-background-color: #5cb85c;
+	-fx-font-weight: bold;
+	-fx-text-fill: white;
+}
+
+.toolbar-button {
+	-fx-border-color: transparent;
+	-fx-background-color: #194C5F;
+}
+
+.request-area {
+ 	-fx-focus-color: -fx-control-inner-background ;
+    -fx-faint-focus-color: -fx-control-inner-background ;
+}
+
+.request-area:focused {
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 0px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+}
+
+.response-area {
+ 	-fx-focus-color: -fx-control-inner-background ;
+    -fx-faint-focus-color: -fx-control-inner-background ;
+}
+
+.response-area-text {
+	-fx-background-color: #ffffff;
+}
+
+.response-area:focused {
+    -fx-background-color: linear-gradient(to bottom, derive(-fx-text-box-border, -10%), -fx-text-box-border),
+        linear-gradient(from 0px 0px to 0px 0px, derive(-fx-control-inner-background, -9%), -fx-control-inner-background);
+}
+
+.table-view:focused {
+    -fx-focus-color: transparent;
+}
+
+.table-row-cell:selected {
+   -fx-background-color: steelblue; 
+   -fx-table-cell-border-color: transparent;
+}
+
+.table-row-cell .text-field:focused {
+    -fx-focus-color: transparent;
+}
+
+.table-row-cell .text-field {
+    
+}

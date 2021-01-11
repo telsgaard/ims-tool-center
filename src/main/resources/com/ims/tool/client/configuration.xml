@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tool-center-config version="1.0" >
+  
+  <!-- EMA Configuration entries -->
+  <tool-config kind="ema" name="ema-prod" default="false">
+    <param name="url" value="127.0.0.1:8"/>
+    <param name="user" value="sogadm"/>
+    <param name="pass" value="sogadm"/>
+  </tool-config>
+  
+</tool-center-config>
